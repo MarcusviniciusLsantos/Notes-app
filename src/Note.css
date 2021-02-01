@@ -1,0 +1,60 @@
+.app {
+    margin: 10px;
+    width: 90%;
+    line-height: 20px;
+    border: 1px;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    border: 1px solid black;
+}
+
+.noteHeader {
+    background-color: #20232a;
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.noteContainer {
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #f7f7f7;
+    height: 200px;
+}
+
+.view {
+    padding: 10px;
+}
+
+.edit {
+    resize: none;
+    outline: none;
+    overflow: auto;
+    background-color: #f7f7f7;
+    border: none;
+    height: 90%;
+    width: 90%;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.dTime {
+    font-style: italic;
+    color: rgb(21, 179, 231);
+}
+
+.button-note {
+    background: #20232a;
+    color: rgb(97, 218, 251);
+    border: 1px solid #20232a;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button-note:hover {
+    color: white;
+}
