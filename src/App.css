@@ -1,31 +1,32 @@
-header {
-    background-color: #20232a;
-    line-height: 40px;
-    flex-direction: column;
+@import "~antd/dist/antd.css";
+
+.layout {
     display: flex;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    color: rgb(21, 179, 231);
-    width: 89.3%;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
 }
 
-.button-add {
-    background: #20232a;
-    color: rgb(97, 218, 251);
-    border: 1px solid;
-    border-radius: 2px;
-    padding: 10px 25px;
-    margin: 10px;
-    font-size: 14px;
-    outline: none;
-    cursor: pointer;
+.content {
+    padding: 0 50px;
 }
 
-.button-add:hover {
+.site-layout-content {
+  min-height: 46.8rem;
+  padding: 24px;
+  background: #fff;
+}
+
+.message-note {
+  text-align: center;
+  margin: auto;
+}
+
+.button-new-note {
+    margin-left: 10px;
+}
+
+.button-new-note:hover {
     color: white;
-}
+  }
 
-h3 {
-    text-align: center;
-}
