@@ -48,7 +48,7 @@ function App() {
         </h4>
       );
     return notes.map((note, idx) => (
-      <Col span={8}>
+      <Col xs={24} sm={24} md={12} lg={8} xl={8}>
         <Note note={note} idx={idx} onDelete={() => onDelete(idx)} />
       </Col>
     ));
@@ -59,8 +59,8 @@ function App() {
       <HeaderMenu />
       <Content className="content">
         <Breadcrumb style={{ margin: "16px 0" }}>
-          <Breadcrumb.Item>Home</Breadcrumb.Item>
           <Breadcrumb.Item>Note App</Breadcrumb.Item>
+          <Breadcrumb.Item>Home</Breadcrumb.Item>
         </Breadcrumb>
         <div className="site-layout-content">
           <Button
@@ -71,7 +71,7 @@ function App() {
             Add New Note
           </Button>
 
-          <Row gutter={16}>{createNotesContainer()}</Row>
+          <Row >{createNotesContainer()}</Row>
         </div>
         <Footer style={{ flex: "0 1 57px", textAlign: "center"}}>
           Note App ©2021 Created by Marcus
