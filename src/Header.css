@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+}
+
+.logo {
+    margin-right: 16px;
+  }
+
+h1 {
+    color:#fff;
+}
