@@ -23,7 +23,7 @@ Create and store your notes for later purpose!
 
 ## Scripts used
 
-### `npm install` from install packages.
+### `yarn install` from install packages.
 
-### `npm start` from create development server.<br/> Open [http://localhost:3000](http://localhost:3000) to view in the browser.
+### `yarn start` from create development server.<br/> Open [http://localhost:3000](http://localhost:3000) to view in the browser.
 
