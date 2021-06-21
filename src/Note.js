@@ -7,7 +7,15 @@ import { DeleteOutlined, CheckOutlined, EditOutlined } from "@ant-design/icons";
 const { TextArea } = Input;
 
 function EditContainer({ text, ...props }) {
-  return <TextArea rows={8} className="edit" value={text} {...props} placeholder={"Write notes to memorize your tasks"}/>;
+  return (
+    <TextArea
+      rows={8}
+      className="edit"
+      value={text}
+      {...props}
+      placeholder={"Write notes to memorize your tasks"}
+    />
+  );
 }
 
 function ViewContainer({ text, onToggle }) {
@@ -19,9 +27,7 @@ function ViewContainer({ text, onToggle }) {
 }
 
 export default function Note({ note, idx, onDelete }) {
-  const initialState =
-    window.localStorage.getItem(`note-${idx}`) ||
-    "";
+  const initialState = window.localStorage.getItem(`note-${idx}`) || "";
   const [text, setText] = useState(initialState);
   const [edit, setEdit] = useState(false);
 

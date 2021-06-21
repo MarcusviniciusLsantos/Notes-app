@@ -1,51 +1,53 @@
 .app {
-    margin: 10px;
-    line-height: 20px;
-    border: 1px;
-    border-radius: 5px;
+  margin: 10px;
+  line-height: 20px;
+  border: 1px;
+  border-radius: 5px;
 }
 
-.noteHeader {
-    display: flex;
+@media (min-width: 470px) {
+  .noteHeader {
     font-size: 16px;
+    display: flex;
     justify-content: space-between;
+  }
 }
 
 .noteContainer {
-    width: 100%;
-    text-align: center;
-    height: 100%;
+  width: 100%;
+  text-align: center;
+  height: 100%;
 }
 
 .view {
-    padding: 10px;
-    height: 222px;
-    word-break: break-all;
+  padding: 10px;
+  height: 222px;
+  word-break: break-all;
 }
 
 .edit {
-    overflow: auto;
-    height: 100%;
-    width: 100%;
-    font-size: 16px;
-    padding: 10px;
-    text-align: center;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
 }
 
 .dTime {
-    color: rgb(21, 179, 231);
+  color: rgb(21, 179, 231);
 }
 
 .button-note {
-    background: #20232a;
-    color: rgb(97, 218, 251);
-    border: 1px solid #20232a;
-    border-radius: 2px;
-    outline: none;
-    cursor: pointer;
-    font-size: 20px;
+  background: #20232a;
+  color: rgb(97, 218, 251);
+  border: 1px solid #20232a;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .button-note:hover {
-    color: white;
+  color: white;
 }
