@@ -2,6 +2,8 @@
 
 idea taken from [here](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Notes-App.md)
 
+My deployed app [Notes App](https://notes-app-learning.herokuapp.com/)
+
 ## Description
 
 Create and store your notes for later purpose!
